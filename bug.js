@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an issue where data wasn't being written to Firestore despite seemingly correct code.  The issue was intermittent, occurring only under specific conditions and with certain data types.  The code used the `set()` method with error handling, but no errors were ever thrown.
